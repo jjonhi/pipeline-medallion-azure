@@ -27,11 +27,6 @@ El flujo de datos se divide en tres capas principales:
 - Cálculo de métricas de negocio.
 - Generación de reportes y visualizaciones.
 
-## Arquitectura General
-
-![Arquitectura](docs/arquitectura_pipeline.png)
-
-
 ## Automatización
 
 El pipeline fue orquestado mediante Azure Data Factory (ADF), utilizando triggers programados para ejecutar automáticamente el flujo ETL todos los días a las 08:00 AM.
